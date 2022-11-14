@@ -1,0 +1,24 @@
+{
+  "name": "escan",
+  "version": "1.0.0",
+  "description": "escan app",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.8.9",
+    "mongoose-paginate": "^5.0.3",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.2",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "password-hash": "^1.2.2",
+    "supervisor": "^0.12.0"
+  }
+}
